@@ -1,0 +1,27 @@
+[submodule "lib/openzeppelin-contracts-v340"]
+	path = lib/openzeppelin-contracts-v340
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/v2-periphery"]
+	path = lib/v2-periphery
+	url = https://github.com/Uniswap/v2-periphery
+[submodule "lib/comet"]
+	path = lib/comet
+	url = https://github.com/compound-finance/comet
+[submodule "lib/libocr"]
+	path = lib/libocr
+	url = https://github.com/smartcontractkit/libocr
+[submodule "lib/solady"]
+	path = lib/solady
+	url = https://github.com/vectorized/solady
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/openzeppelin-contracts-upgradeable"]
+	path = lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/openzeppelin/openzeppelin-contracts-upgradeable
+[submodule "lib/aave-v3-core"]
+	path = lib/aave-v3-core
+	url = https://github.com/aave/aave-v3-core

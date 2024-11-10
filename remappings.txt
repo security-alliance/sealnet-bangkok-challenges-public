@@ -1,0 +1,6 @@
+solady/=lib/solady/src/
+comet/=lib/comet/contracts/
+openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/
+uniswap-v2-periphery/=lib/v2-periphery/contracts/
+openzeppelin-contracts-v340/=lib/openzeppelin-contracts-v340/contracts/
+aave/=lib/aave-v3-core/contracts/

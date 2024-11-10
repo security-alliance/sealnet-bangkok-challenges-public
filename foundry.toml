@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+fs_permissions = [{ access = "read", path = "./bytecode"}]
+optimizer = true
+optimizer_runs = 1_000
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[rpc_endpoints]
+tenderly = "${TENDERLY_VIRTUAL_TESTNET_RPC_URL}"
+
+[etherscan]
+tenderly = { key = "${TENDERLY_ACCESS_TOKEN}", chain = 11510197108, url = "${TENDERLY_VIRTUAL_TESTNET_RPC_URL}/verify/etherscan" }
